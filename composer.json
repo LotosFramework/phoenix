@@ -1,0 +1,21 @@
+{
+    "name": "lotos/phoenix",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "McLotos",
+            "email": "mclotos@xakep.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Paybox\\Pay\\": "src/",
+            "Paybox\\Pay\\Models\\": "src/models/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.0"
+    }
+}
